@@ -4,6 +4,9 @@ public class MilkCrates {
 	
 	int num_crtes;
 	int bottles_per_crates;
+	double cost_per_crate;
+	double total_cost;
+	
 	double unit_cost_bottle;
 	
 	MilkCrates(int num_crates,double unit_cost_bottle)
